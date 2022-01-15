@@ -1,8 +1,22 @@
 # Modul 120
 
-[![Build Status Travis Main](https://img.shields.io/travis/com/ursinn/schule-m120/main?logo=travis&label=build%20main)](https://travis-ci.com/ursinn/schule-m120)
-[![Build Status Travis Develop](https://img.shields.io/travis/com/ursinn/schule-m120/develop?logo=travis&label=build%20develop)](https://travis-ci.com/ursinn/schule-m120)
-[![Build Status Jenkins Main](https://img.shields.io/jenkins/build?jobUrl=https%3A%2F%2Fci.ursinn.dev%2Fjob%2Fursinn%2Fjob%2Fschule-m120%2Fjob%2Fmain%2F&label=build%20main&logo=jenkins)](https://ci.ursinn.dev/job/ursinn/job/schule-m226)
-[![Build Status Jenkins Develop](https://img.shields.io/jenkins/build?jobUrl=https%3A%2F%2Fci.ursinn.dev%2Fjob%2Fursinn%2Fjob%2Fschule-m120%2Fjob%2Fdevelop%2F&label=build%20develop&logo=jenkins)](https://ci.ursinn.dev/job/ursinn/job/schule-m120)
+<!--
+[![Jenkins](https://img.shields.io/jenkins/build?jobUrl=https%3A%2F%2Fci.ursinn.dev%2Fjob%2Fursinn%2Fjob%2Fschule-m120&logo=jenkins&style=for-the-badge)](https://ci.ursinn.dev/job/ursinn/job/schule-m120)
+-->
+[![GitHub last commit](https://img.shields.io/github/last-commit/ursinn/schule-m120?logo=github&style=for-the-badge)](https://github.com/ursinn/schule-m120/commits)
+[![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/ursinn/schule-m120?logo=codeclimate&style=for-the-badge)](https://codeclimate.com/github/ursinn/schule-m120)
+[![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/ursinn/schule-m120?logo=snyk&style=for-the-badge)](https://snyk.io/test/github/ursinn/schule-m120)
+[![License](https://img.shields.io/github/license/ursinn/schule-m120?style=for-the-badge)](https://github.com/ursinn/schule-m120/blob/main/LICENSE)
 
-[![License: Unlicense](https://img.shields.io/github/license/ursinn/schule-m120)](http://unlicense.org/)
+---
+
+## Description
+
+description
+
+---
+
+## License
+
+This project is under the Unlicense License. See the [LICENSE](https://github.com/ursinn/schule-m120/blob/main/LICENSE)
+file for the full license text.
