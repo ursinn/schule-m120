@@ -1,49 +1,48 @@
 package dev.ursinn.schule.m120;
 
-import java.awt.BorderLayout;
 import javax.swing.*;
- 
-@SuppressWarnings("serial")
+import java.awt.*;
+
 public class MenuMitListener extends JFrame {
-    // Menüleiste 
+    // Menï¿½leiste 
     JMenuBar menuBar;
- 
-    // Menü "Datei"
+
+    // Menï¿½ "Datei"
     JMenu fileMenu;
- 
-    // Menüpunkt "Öffnen"
+
+    // Menï¿½punkt "ï¿½ffnen"
     JMenuItem openItem;
- 
-    // Menüpunkt "Schließen"
+
+    // Menï¿½punkt "Schlieï¿½en"
     JMenuItem closeItem;
- 
+
     public MenuMitListener() {
         this.setTitle("JMenu mit ActionListener");
         this.setSize(400, 300);
- 
-        // Menüleiste wird erzeugt
+
+        // Menï¿½leiste wird erzeugt
         menuBar = new JMenuBar();
- 
-        // Menü "Datei" wird erzeugt
+
+        // Menï¿½ "Datei" wird erzeugt
         fileMenu = new JMenu("Datei");
- 
-        // Menüpunkte werden erzeugt
-        openItem = new JMenuItem("Öffnen");
-        closeItem = new JMenuItem("Schließen");
- 
-        // Menüpunkte werden dem Datei-Menü hinzugefügt
+
+        // Menï¿½punkte werden erzeugt
+        openItem = new JMenuItem("ï¿½ffnen");
+        closeItem = new JMenuItem("Schlieï¿½en");
+
+        // Menï¿½punkte werden dem Datei-Menï¿½ hinzugefï¿½gt
         fileMenu.add(openItem);
         fileMenu.add(closeItem);
- 
-        //Datei-Menü wird der Menüleiste hinzugefügt
+
+        //Datei-Menï¿½ wird der Menï¿½leiste hinzugefï¿½gt
         menuBar.add(fileMenu);
- 
-        //Menüleiste wird dem JFrame hinzugefügt
+
+        //Menï¿½leiste wird dem JFrame hinzugefï¿½gt
         this.add(menuBar, BorderLayout.NORTH);
- 
+
         // ActionListener wird als anonyme Klasse eingebunden
         openItem.addActionListener(new java.awt.event.ActionListener() {
-            // Beim Drücken des Menüpunktes wird actionPerformed aufgerufen
+            // Beim Drï¿½cken des Menï¿½punktes wird actionPerformed aufgerufen
             public void actionPerformed(java.awt.event.ActionEvent e) {
                 // Dateiauswahldialog wird erzeugt...
                 JFileChooser fc = new JFileChooser();
@@ -51,18 +50,18 @@ public class MenuMitListener extends JFrame {
                 fc.showOpenDialog(null);
             }
         });
- 
+
         // ActionListener wird als anonyme Klasse eingebunden
         closeItem.addActionListener(new java.awt.event.ActionListener() {
-            // Beim Drücken des Menüpunktes wird actionPerformed aufgerufen
+            // Beim Drï¿½cken des Menï¿½punktes wird actionPerformed aufgerufen
             public void actionPerformed(java.awt.event.ActionEvent e) {
-                //Programm schließen
+                //Programm schlieï¿½en
                 System.exit(0);
             }
         });
     }
- 
- 
+
+
     public static void main(String[] args) {
         MenuMitListener nml = new MenuMitListener();
         nml.setVisible(true);

@@ -1,8 +1,7 @@
 package dev.ursinn.schule.m120;
 
-import javax.swing.JFrame;
+import javax.swing.*;
 
-@SuppressWarnings("serial")
 public class GenericListenerDemo extends JFrame {
 
 //	static ActionListener proxyActionListener(JComponent target, Object implementator, String methodname) {
@@ -30,6 +29,6 @@ public class GenericListenerDemo extends JFrame {
 //		WindowListener winListener = GenericListener
 //	}
 //	
-	
-	
+
+
 }
